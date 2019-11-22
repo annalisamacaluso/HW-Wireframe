@@ -4,8 +4,7 @@ footer {
     background: #ebebeb;
     padding: 20px;
     color: #777;
-    width: 495px;
-    margin: auto;
+    width: 960px;
     margin-top: 10px;
     margin-bottom: 10px;
     /* display: ??? */
@@ -21,22 +20,33 @@ body {
     text-align: center;
 }
 
-aside {
-    background:  #ebebeb;
-    width: 220px;
-    height: 220px;
+.midbox {
     display: inline-block;
+    width: 960px;
+    height:auto;
 }
 
-section{
+.aside {
     background:  #ebebeb;
-    width: 275px;
+    width: 40%;
+    height: 200px;
+    /* display: inline-block; */
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+ 
+}
+
+.section{
+    background:  #ebebeb;
+    width: 40%;
     height: 200px;
     padding: 10px;
     float: left;
+   
 }
 
-article{
+.article{
     background: #777;
     color: #ebebeb;
     padding: 20px 10px 20px 10px; 
@@ -44,7 +54,22 @@ article{
 
 div,
 p{
-    background: #ebebeb;
     color: #777;
     padding: 10px;
+    margin: 10px auto;
+}
+
+.pbutton {
+    background:  #ebebeb;
+}
+
+.hbutton{
+    background:  #ebebeb;
+}
+
+/* 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; */
 }
